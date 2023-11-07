@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+header>h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header>p {
+    padding-bottom: 50px;
+}
+
+header>p>a,
+footer>p>a {
+    color: white;
+    text-decoration: none;
+}
+
+p>a:hover,
+footer>p>a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
+
+article.p {
+    padding-left: 30px;
+}
+
+article#f1 {
+    background-image: url("imagens/background001.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 90px 0px 90px 0px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.63);
+}
+
+article#f2 {
+    background-image: url("imagens/background002.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 90px 0px 90px 0px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.63);
+}
+
+article#f1>p {
+    max-width: 300px;
+    padding-left: 30px;
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.290);
+    color: white;
+}
+
+article#f2>p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.290);
+    max-width: 300px;
+    padding-left: 30px;
+    margin-left: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
